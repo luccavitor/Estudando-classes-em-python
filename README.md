@@ -1,27 +1,29 @@
-# Estudo de Classes em Python
+# Estudo de Classes e Programação Orientada a Objetos em Python
 
 Este código faz parte dos meus estudos de Python pela **Alura**, com foco nos fundamentos da Programação Orientada a Objetos (POO).
 
-O objetivo é compreender como funcionam as classes, os objetos e seus atributos, utilizando exemplos práticos para fixar o conteúdo aprendido durante o curso.
+O objetivo é compreender a criação e estruturação de classes, instanciação de objetos, definição de atributos e utilização de métodos especiais por meio de exercícios práticos.
 
 ## Conteúdos estudados
 
 - **Classes:** criação e estruturação de classes em Python.
 - **Objetos (instâncias):** criação de objetos a partir de uma classe.
-- **Atributos:** definição e manipulação de características dos objetos.
-- **Função `dir()`:** visualização dos atributos e métodos disponíveis em um objeto.
-- **Função `vars()`:** visualização dos atributos de um objeto por meio de um dicionário.
-- **Condicionais:** utilização de estruturas `if` e `else` para verificar valores dos atributos.
+- **Atributos:** definição e manipulação das características dos objetos.
+- **Método construtor (`__init__`):** inicialização de objetos com parâmetros.
+- **Parâmetros padrão:** definição de valores iniciais para atributos.
+- **Método especial (`__str__`):** personalização da representação textual de um objeto.
+- **Métodos e parâmetros:** utilização de métodos para estruturar o comportamento das classes.
 
 ## Exemplos desenvolvidos
 
-Durante o estudo, foram utilizados exemplos de classes para representar:
+Durante os exercícios, foram criadas diferentes classes para praticar os conceitos estudados:
 
-- **Restaurante:** criação de instâncias com nome, categoria e estado de atividade.
-- **Música:** criação de instâncias com nome, artista e duração.
+- **Carro:** definição de modelo, cor e ano utilizando um método construtor.
+- **Restaurante:** criação de instâncias com nome, categoria, capacidade, nota de avaliação e estado de atividade.
+- **Cliente:** criação de objetos com nome, idade, e-mail e telefone.
 
-Também foram realizados exercícios práticos para atribuir, consultar e modificar atributos dos objetos.
+Também foram realizados exercícios para personalizar a inicialização dos objetos, definir valores padrão para atributos e formatar a exibição de instâncias utilizando o método `__str__`.
 
 ## Objetivo do estudo
 
-Consolidar os conceitos iniciais de classes e objetos em Python, desenvolvendo a compreensão sobre a estrutura da Programação Orientada a Objetos.
+Consolidar os fundamentos da Programação Orientada a Objetos em Python, desenvolvendo a compreensão sobre classes, objetos, atributos, construtores e métodos especiais.
